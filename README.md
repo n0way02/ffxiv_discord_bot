@@ -1,63 +1,63 @@
-# Bot de Registro Discord
+# Discord Registration Bot
 
-Um bot Discord para gerenciamento de registro de usuários, com sistema de níveis, moeda virtual, mineração, cassino e sorteios.
+A Discord bot for user registration management, featuring a leveling system, virtual currency, mining, casino, and giveaways.
 
-## Funcionalidades
+## Features
 
-- Sistema de registro de usuários com verificação via Lodestone (FFXIV)
-- Sistema de níveis e XP
-- Sistema de moeda virtual (OwO Coins)
-- Sistema de mineração
-- Cassino com roleta automática
-- Sistema de sorteios
-- Missões diárias
-- Perfil personalizável
+- User registration system with Lodestone verification (FFXIV)
+- Leveling and XP system
+- Virtual currency system (OwO Coins)
+- Mining system
+- Casino with automatic roulette
+- Giveaway system
+- Daily missions
+- Customizable profile
 - Leaderboard
-- Sistema de transferência de moedas
+- Currency transfer system
 
-## Requisitos
+## Requirements
 
-- Python 3.8 ou superior
+- Python 3.8 or higher
 - Discord.py 2.5.2
 - Firebase Admin SDK
-- Outras dependências listadas em `requirements.txt`
+- Other dependencies listed in `requirements.txt`
 
-## Configuração
+## Setup
 
-1. Clone o repositório
-2. Instale as dependências:
+1. Clone the repository
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Configure as variáveis de ambiente:
-   - Crie um arquivo `.env` com as seguintes variáveis:
+3. Configure the environment variables:
+   - Create a .env file with the following variables:
      ```
-     DISCORD_TOKEN=seu_token_do_bot
+     DISCORD_TOKEN=your_bot_token
      ```
-4. Configure o Firebase:
-   - Adicione o arquivo de credenciais do Firebase Admin SDK
-   - Configure a URL do banco de dados no código
+4. Configure Firebase:
+   - Add the Firebase Admin SDK credentials file
+   - Set up the database URL in the code
 
-## Uso
+## Usage
 
-1. Execute o bot:
+1. Run the bot:
    ```bash
    python bot-discord.py
    ```
 
-2. Use os comandos no Discord:
-   - `/setup` - Configura a mensagem de registro
-   - `/registrar` - Registra um novo usuário
-   - `/profile` - Mostra seu perfil
-   - `/shop` - Abre a loja
+2. Use the commands on Discord:
+   - `/setup` - Sets up the registration message
+   - `/registrar` - Registers a new user
+   - `/profile` - Displays your profile
+   - `/shop` - Starts mining
    - `/mine` - Inicia a mineração
-   - `/daily` - Recebe recompensas diárias
-   - `/help` - Mostra todos os comandos disponíveis
+   - `/daily` - Collects daily rewards
+   - `/help` - Shows all available commands
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes. 
+This project is licensed under the MIT License - see the LICENSE file for details. 
